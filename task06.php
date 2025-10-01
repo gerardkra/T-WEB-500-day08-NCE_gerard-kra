@@ -25,11 +25,12 @@ function sequence(int $nbr) {
             }
         }
 
-        // Don’t forget the last group
+        // The last group
         $next .= $count . $current[strlen($current) - 1];
 
-        // Move to next iteration
+        // Next iteration
         $current = $next;
     }
 }
 ?>
+
