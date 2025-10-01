@@ -1,7 +1,7 @@
 <?php
 function calc_average(array $numbers) {
     if (empty($numbers)) {
-        return null; // If no numbers, return nothing
+        return 0; // If no numbers, return 0
     }
 
     // Calculate sum of all numbers
@@ -17,3 +17,4 @@ function calc_average(array $numbers) {
     return round($average, 1);
 }
 ?>
+
