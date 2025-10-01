@@ -32,5 +32,5 @@ function sequence(int $nbr) {
         $current = $next;
     }
 }
-?>
+
 
