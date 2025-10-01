@@ -16,5 +16,5 @@ function calc_average(array $numbers) {
     // Round to 1 decimal place
     return round($average, 1);
 }
-?>
+
 
