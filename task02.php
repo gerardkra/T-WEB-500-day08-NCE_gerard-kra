@@ -17,4 +17,3 @@ function dog_bark(int $woof_nb) {
     // Always end with a newline
     echo PHP_EOL;
 }
-?>
