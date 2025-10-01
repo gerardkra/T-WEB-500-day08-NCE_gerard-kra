@@ -17,4 +17,3 @@ function get_shortest(array $words) {
 
     return $shortest;
 }
-?>
