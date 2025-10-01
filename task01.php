@@ -11,3 +11,4 @@ function discover_type(int $age, string $name, float $gpa, bool $isStudent)
         echo "Hello my name is $name, I'm $age years old. I'm not a student." . PHP_EOL;
     }
 }
+?>
